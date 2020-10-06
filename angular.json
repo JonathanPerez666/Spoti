@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Spoti"
+    }
+  },
+  "defaultProject": "Spoti",
+  "cli": {
+    "analytics": false
+  }
 }
