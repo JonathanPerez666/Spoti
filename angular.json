@@ -117,12 +117,13 @@
               "devServerTarget": "Spoti:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
   },
   "defaultProject": "Spoti",
-  "cli": {
-    "analytics": false
-  }
 }
